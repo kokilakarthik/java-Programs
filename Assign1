@@ -1,0 +1,66 @@
+
+// first assignment koki
+
+public class Student {
+	 String name;
+	 int science;
+	 int maths;
+	 int cs;
+	 int gk;
+	 
+int stuTotal() {
+		return science+maths+cs+gk;
+	 }
+int stuAvg() {
+	return (science+maths+cs+gk/4);
+		
+}
+public static void main(String[] args) {
+	Student s1=new Student();
+	s1.name="Koki";
+	s1.science=34;
+	s1.maths=55;
+	s1.cs=67;
+	s1.gk=78;
+	
+	Student s2=new Student();
+	s2.name="Mani";
+	s2.science=54;
+	s2.maths=59;
+	s2.cs=87;
+	s2.gk=71;
+	
+	Student s3=new Student();
+	s3.name="Iniya";
+	s3.science=94;
+	s3.maths=79;
+	s3.cs=47;
+	s3.gk=73;
+	
+	Student s4=new Student();
+	s4.name="Sri";
+	s4.science=67;
+	s4.maths=99;
+	s4.cs=70;
+	s4.gk=80;
+	
+	System.out.println("Total marks for students : "+s1.stuTotal() );
+	System.out.println("Averge marks for students : "+s1.stuAvg() );
+	
+	System.out.println("Total marks for students : "+s2.stuTotal() );
+	System.out.println("Averge marks for students : "+s2.stuAvg() );
+
+	System.out.println("Total marks for students : "+s3.stuTotal() );
+	System.out.println("Averge marks for students : "+s3.stuAvg() );
+
+	System.out.println("Total marks for students : "+s4.stuTotal() );
+	System.out.println("Averge marks for students : "+s4.stuAvg() );
+
+
+}
+	 }
+	 
+
+
+koki stuassignment1.txt
+Displaying koki stuassignment1.txt.
